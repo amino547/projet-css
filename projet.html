@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body class="body-main">
+ 
+    <nav class="navbar">
+        <ul class="navbar-list">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+            <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+   
+    <section id="home" class="section section-home">
+        <h1 class="section-title">Welcome to My Portfolio</h1>
+        <p class="section-text">Your introductory text goes here.</p>
+    </section>
+
+    
+    <section id="about" class="section section-about">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-text">Provide a brief description about yourself, your background, skills, and passions.</p>
+    </section>
+
+    
+    <section id="work" class="section section-work">
+        <h2 class="section-title">My Work</h2>
+        <p class="section-text">Showcase your projects, experiences, or any professional work you have done.</p>
+    </section>
+
+    
+    <section id="resume" class="section section-resume">
+        <h2 class="section-title">Resume</h2>
+        <p class="section-text">Include a brief summary of your resume or provide a downloadable version.</p>
+    </section>
+
+    
+    <section id="contact" class="section section-contact">
+        <h2 class="section-title">Contact Me</h2>
+        <form action="#" method="POST" class="contact-form">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" id="name" name="name" class="form-input" required>
+
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" id="email" name="email" class="form-input" required>
+
+            <label for="message" class="form-label">Message:</label>
+            <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+
+            <button type="submit" class="form-button">Send</button>
+        </form>
+    </section>
+
+
+    <footer class="footer">
+        <p class="footer-text">&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
